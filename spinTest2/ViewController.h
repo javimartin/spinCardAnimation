@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h> 
 
 @interface ViewController : UIViewController
 
+
+@property (weak, nonatomic) IBOutlet UIImageView *cardFront;
+
+- (IBAction)buttonPressed:(id)sender;
 @end
